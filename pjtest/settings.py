@@ -135,4 +135,4 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 # CORS
 CORS_ORIGIN_ALLOW_ALL = True # allow all domains
-CORS_URLS_REGEX = r'^/users/detail/.*$' # restrict detail URLs
+CORS_URLS_REGEX = r'^/users/$' # restrict detail URLs
